@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWEB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #050640;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-image: url('your name.jpeg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: local;
+        
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .article-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        article {
+            flex: 1 1 calc(33% - 40px);
+            background-color: #f9f9f9;
+            padding: 20px;
+            box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+        }
+        article h2 {
+            margin-top: 0;
+        }
+        article p {
+            text-align: justify;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .highlight {
+            color: #000000;
+            font-weight: bold;
+        }
+        @media (max-width: 768px) {
+            article {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sekedar Info</h1>
+        <p>Memberikan Informasi Menarik dari Berbagai Negara</p>
+    </header>
+
+    <nav>
+        <a href="#home">Beranda</a>
+        <a href="https://www.youtube.com/@MuseIndonesia">Artikel</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+    <main>
+        <section id="articles">
+            <h2 style="color: white;">Artikel</h2>
+            <div class="article-container">
+                <article>
+                    <h3>Apa itu Anime?</h3>
+                    <p>Anime adalah bentuk animasi yang berasal dari Jepang, dikenal karena gaya visualnya yang khas
+                         dan beragam genre yang mencakup aksi, petualangan, fiksi ilmiah, fantasi, horor, hingga 
+                         drama kehidupan sehari-hari. Karakteristik anime sering kali melibatkan penceritaan 
+                         yang mendalam, karakter yang emosional dan kompleks, serta penggunaan seni yang kaya 
+                         warna dan detail. Popularitas anime telah mendunia, dengan serial-serial seperti "Naruto",
+                          "One Piece," dan "Attack on Titan" menjadi fenomena global. Selain sebagai hiburan, 
+                          anime juga sering menggambarkan isu-isu sosial, filosofi, dan budaya Jepang, 
+                          menjadikannya media yang lebih dari sekadar tontonan animasi.</p>
+                </article>
+                <article>
+                    <h3>Mau Nonton Anime?</h3>
+                    <p>Anda pasti ingin tahu di mana bisa nonton anime sub indo secara legal, bukan? Memilih 
+                        platform resmi memang lebih aman dan nyaman. Bayangkan, Anda bisa menikmati kualitas 
+                        video yang jernih dengan dukungan resolusi HD tanpa gangguan pop-up iklan yang mengganggu. 
+                        Dengan begitu, pengalaman nonton anime sub indo akan terasa lebih menyenangkan dan 
+                        terlindungi dari risiko iklan berbahaya. Oleh karena itu, sebaiknya hindari situs ilegal 
+                        yang rawan dengan iklan-iklan tidak aman.</p>
+                </article>
+                <article>
+                    <h3>Platform Streaming</h3>
+                    <p>Salah satu platform streaming yang populer dan legal untuk menonton anime. Pengguna dapat 
+                        mengaksesnya melalui perangkat laptop/PC maupun aplikasi smartphone. Seiring dengan waktu, 
+                        semakin banyak kanal YouTube yang menyediakan berbagai judul anime secara legal. Beberapa 
+                        kanal yang dapat disebutkan adalah <span class="highlight">GundamInfo, Muse, 
+                            dan Ani-One</span>. Mereka tidak hanya menyediakan anime dengan berbagai subtitle, 
+                            termasuk bahasa Indonesia, namun juga memudahkan pengguna untuk mengikuti jalan cerita 
+                            anime favorit mereka.</p>
+                </article>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sekedar Info</p>
+    </footer>
+
+</body>
+</html>
